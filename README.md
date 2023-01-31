@@ -1,6 +1,6 @@
 # FOMRS
 
-![badmath](https://img.shields.io/badge/basic-FORMS-orange-green)
+![badmath](https://img.shields.io/badge/basic-FORMS-orange)
 
 ![Contributor Covenant](https://img.shields.io/badge/license-MIT-brightgreen)
 
