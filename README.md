@@ -1,6 +1,6 @@
-# ANIMATION
+# FOMRS
 
-![badmath](https://img.shields.io/badge/basic-ANIMATION-yellow)
+![badmath](https://img.shields.io/badge/basic-FORMS-yellow-green)
 
 ![Contributor Covenant](https://img.shields.io/badge/license-MIT-brightgreen)
 
@@ -20,7 +20,7 @@
 
 This simple HTML file uses best practices for accessility and programming.
 
-[Deployed Animated HTML Link ](https://volodya1989.github.io/goit-markup-hw-05/)
+[Deployed FORMS HTML Link ](https://volodya1989.github.io/goit-markup-hw-06/)
 
 
 
