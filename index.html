@@ -66,15 +66,55 @@
           </button>
           <div class="backdrop is-hidden" data-modal>
             <div class="modal">
-            
               <div class="modal-section">
                 <button class="btn btn-modal" data-modal-close>
                   <div class="icon-close">
                     <svg class="svg-close">
-                      <use href="./images/icons.svg/close_1.svg#icon-close"></use>
+                      <use
+                        href="./images/icons.svg/close_1.svg#icon-close"
+                      ></use>
                     </svg>
                   </div>
                 </button>
+                <form class="contact-form">
+                  <h4 class="form-title">
+                    Leave your contacts and we will call you back
+                  </h4>
+                  <ul class="list">
+                    <li>
+                      <label class="label-form" for="name">Name</label>
+                      <input class="input-form" type="text" id="name" />
+                    </li>
+                    <li>
+                      <label class="label-form" for="phone"> Phone</label>
+                      <input class="input-form" type="tel" id="phone" />
+                    </li>
+                    <li>
+                      <label class="label-form" for="email">Emai</label>
+                      <input class="input-form" type="email" id="email" />
+                    </li>
+                    <li>
+                      <label class="label-form" for="comment">Comment</label>
+                      <input
+                        class="input-form"
+                        type="textarea"
+                        placeholder="Text input"
+                        id="comment"
+                      />
+                    </li>
+                    <li class="checkbox"
+            >
+                      <label class="label-form" for="checkbox"></label>
+                      <input
+                        class="input-form"
+                        type="checkbox"
+                        id="checkbox"
+                      />I accept the therms and conditions of the
+                      <a href="">Privacy Policy</a>
+                    </li>
+                  </ul>
+                  <button type="submit" class="btn btn-order btn-form">Send</button>
+                </form>
               </div>
             </div>
           </div>
