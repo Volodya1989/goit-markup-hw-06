@@ -267,7 +267,7 @@ p {
 }
 
 /* contact-form */
-.form-title{
+.form-title {
   margin-top: 53px;
   margin-bottom: 14px;
 }
@@ -294,14 +294,15 @@ p {
   margin-right: auto;
   margin-bottom: 8px;
   font-size: 12px;
-  
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
 }
-.checkbox{
+.checkbox {
   margin-bottom: 24px;
   font-size: 12px;
-width: 100%;
+  width: 100%;
 }
-.btn-form{
+.btn-form {
   width: 169px;
 }
 
