@@ -74,7 +74,7 @@ p {
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
   opacity: 1;
-  transition: opacity var(--transition-time-and-cubic) ;
+  transition: opacity var(--transition-time-and-cubic);
 }
 .backdrop.is-hidden {
   opacity: 0;
@@ -122,7 +122,7 @@ p {
   padding: 15px;
   border-radius: 4px;
   background-color: white;
-  transition: transform var(--transition-time-and-cubic) ;
+  transition: transform var(--transition-time-and-cubic);
 }
 
 /* title's color */
@@ -264,6 +264,45 @@ p {
   background: var(--bg-ocean-color);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   transition: var(--transition-time-and-cubic);
+}
+
+/* contact-form */
+.form-title{
+  margin-top: 53px;
+  margin-bottom: 14px;
+}
+.contact-form {
+  width: 100%;
+}
+.label-form {
+  display: flex;
+  /* position: relative; */
+  width: 100%;
+  font-size: 12px;
+  color: var(--bg-light-slate-color);
+  margin-left: 10px;
+  margin-right: auto;
+}
+.input-form {
+  /* position: absolute; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8px;
+  font-size: 12px;
+  
+}
+.checkbox{
+  margin-bottom: 24px;
+  font-size: 12px;
+width: 100%;
+}
+.btn-form{
+  width: 169px;
 }
 
 .sub-title,
