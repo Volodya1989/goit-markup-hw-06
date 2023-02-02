@@ -347,7 +347,7 @@ p {
   height: 120px;
   resize: none;
 }
-.item-check{
+.item-check {
   margin-bottom: 24px;
 }
 .item-checkbox {
@@ -382,8 +382,14 @@ p {
   background-size: contain;
 }
 .checkbox:checked + .icon-checkbox {
-  background-color: var(--bg-ocean-color);
   border: 1.25px solid var(--bg-ocean-color);
+  background-image: url('../images/icons.svg/checkbox.svg');
+  background-color: var(--bg-ocean-color);
+  background-size: contain;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
 }
 
 .btn-form {
