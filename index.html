@@ -77,43 +77,65 @@
                   </div>
                 </button>
                 <form class="contact-form">
-                  <h4 class="form-title">
+                  <h1 class="form-title">
                     Leave your contacts and we will call you back
-                  </h4>
+                  </h1>
                   <ul class="list">
                     <li>
-                      <label class="label-form" for="name">Name</label>
-                      <input class="input-form" type="text" id="name" />
+                      <label class="label-form name" for="name">Name</label>
+                      <div class="input-wrapper">
+                        <input class="input-form" type="text" id="name" />
+                        <svg class="icon-form icon-name">
+                          <use
+                            href="./images/icons.svg/form_icons.svg#icon-person"
+                          ></use>
+                        </svg>
+                      </div>
                     </li>
                     <li>
                       <label class="label-form" for="phone"> Phone</label>
-                      <input class="input-form" type="tel" id="phone" />
+                      <div class="input-wrapper">
+                        <input class="input-form" type="tel" id="phone" />
+                        <svg class="icon-form icon-phone">
+                          <use
+                            href="./images/icons.svg/form_icons.svg#icon-phone"
+                          ></use>
+                        </svg>
+                      </div>
                     </li>
                     <li>
                       <label class="label-form" for="email">Emai</label>
-                      <input class="input-form" type="email" id="email" />
+                      <div class="input-wrapper">
+                        <input class="input-form" type="email" id="email" />
+                        <svg class="icon-form icon-email">
+                          <use
+                            href="./images/icons.svg/form_icons.svg#icon-email"
+                          ></use>
+                        </svg>
+                      </div>
                     </li>
                     <li>
                       <label class="label-form" for="comment">Comment</label>
-                      <input
-                        class="input-form"
+                      <textarea
+                        class="input-form input-textarea"
                         type="textarea"
                         placeholder="Text input"
                         id="comment"
-                      />
+                      ></textarea>
                     </li>
-                    <li class="checkbox"
-            >
+                    <li class="checkbox">
                       <label class="label-form" for="checkbox"></label>
                       <input
                         class="input-form"
                         type="checkbox"
                         id="checkbox"
-                      />I accept the therms and conditions of the
-                      <a href="">Privacy Policy</a>
+                      /><p class="privacy-text">I accept the therms and conditions of the
+                      <a href="">Privacy Policy</a></p>
                     </li>
                   </ul>
-                  <button type="submit" class="btn btn-order btn-form">Send</button>
+                  <button type="submit" class="btn btn-order btn-form">
+                    Send
+                  </button>
                 </form>
               </div>
             </div>
