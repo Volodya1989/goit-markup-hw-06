@@ -347,7 +347,9 @@ p {
   height: 120px;
   resize: none;
 }
-
+.item-check{
+  margin-bottom: 24px;
+}
 .item-checkbox {
   position: relative;
   display: flex;
