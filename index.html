@@ -84,7 +84,12 @@
                     <li>
                       <label class="label-form name" for="name">Name</label>
                       <div class="input-wrapper">
-                        <input class="input-form" type="text" id="name" />
+                        <input
+                          class="input-form"
+                          type="text"
+                          id="name"
+                          name="name"
+                        />
                         <svg class="icon-form icon-name">
                           <use
                             href="./images/icons.svg/form-icons.svg#icon-person"
@@ -95,7 +100,12 @@
                     <li>
                       <label class="label-form" for="phone"> Phone</label>
                       <div class="input-wrapper">
-                        <input class="input-form" type="tel" id="phone" />
+                        <input
+                          class="input-form"
+                          type="tel"
+                          id="phone"
+                          name="phone"
+                        />
                         <svg class="icon-form icon-phone">
                           <use
                             href="./images/icons.svg/form-icons.svg#icon-phone"
@@ -106,7 +116,12 @@
                     <li>
                       <label class="label-form" for="email">Email</label>
                       <div class="input-wrapper">
-                        <input class="input-form" type="email" id="email" />
+                        <input
+                          class="input-form"
+                          type="email"
+                          id="email"
+                          name="email"
+                        />
                         <svg class="icon-form icon-email">
                           <use
                             href="./images/icons.svg/form-icons.svg#icon-email"
@@ -121,6 +136,7 @@
                         type="textarea"
                         placeholder="Text input"
                         id="comment"
+                        name="comment"
                       ></textarea>
                     </li>
                     <li class="item-check">
@@ -129,6 +145,7 @@
                           class="checkbox visually-hidden"
                           type="checkbox"
                           id="checkbox"
+                          name="checkbox-privacy-selection"
                         />
                         <span class="icon-checkbox"></span>
                         <label class="label-form privacy-text" for="checkbox"
@@ -571,12 +588,20 @@
           </ul>
         </div>
         <div class="subscription-section">
-          <form >
+          <form>
             <label class="label-subscribe" for="subscribe">Subscribe</label>
-            
+
             <div class="submit-wrapper">
-              <input class=" input-form subscribe-form" type="text" id="subscribe" placeholder="E-mail">
-              <button class="btn btn-order btn-subscribe" type="submit" >Subscribe <span class="btn-icon"></span></button>
+              <input
+                class="input-form subscribe-form"
+                type="text"
+                id="subscribe"
+                placeholder="E-mail"
+                name="subscribe"
+              />
+              <button class="btn btn-order btn-subscribe" type="submit">
+                Subscribe <span class="btn-icon"></span>
+              </button>
             </div>
           </form>
         </div>
