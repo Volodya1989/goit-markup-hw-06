@@ -342,6 +342,7 @@ p {
   border-radius: 4px;
 }
 .input-form:focus {
+  outline: none;
   border: 1px solid var(--bg-iris-color);
   transition: var(--transition-time-and-cubic);
 }
