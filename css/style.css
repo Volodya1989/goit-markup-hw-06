@@ -551,6 +551,7 @@ p {
 }
 
 .footer p {
+  width: 264px;
   margin-top: 16px;
   color: var(--bg-cornflower-color);
 }
@@ -695,7 +696,7 @@ img {
   width: 264px;
 }
 .subscription-section {
-  margin-left: 80px;
+  margin-left: auto;
 }
 
 .label-subscribe,
