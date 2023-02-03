@@ -342,7 +342,7 @@ p {
   border-radius: 4px;
 }
 .input-form:focus {
-  border-color: var(--bg-iris-color);
+  border: 1px solid var(--bg-iris-color);
   transition: var(--transition-time-and-cubic);
 }
 .input-textarea {
