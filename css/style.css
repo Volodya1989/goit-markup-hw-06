@@ -296,7 +296,7 @@ p {
 }
 .privacy-text {
   margin: 0;
-  padding-left: 34px;
+  padding-left: 28px;
 }
 .input-wrapper {
   position: relative;
@@ -376,7 +376,7 @@ p {
 }
 .icon-checkbox {
   position: absolute;
-  left: 9px;
+  left: 0;
   top: 50%;
   transform: translateY(-50%);
   width: 16px;
